@@ -35,7 +35,7 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <section className="scroll-mt-20 py-16 px-4 sm:px-6 lg:px-20 relative">
+    <section className="scroll-mt-20 py-16 px-4 sm:px-6 lg:px-20 relative" id="experience">
 
       {/* Glow */}
       <div className="absolute inset-0 bg-violet-600/5 blur-[120px] -z-10"></div>
@@ -171,5 +171,6 @@ const ExperienceSection = () => {
     </section>
   );
 };
+
 
 export default ExperienceSection;
