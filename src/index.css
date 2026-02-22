@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
+
+:root {
+  --swiper-theme-color: #7c3aed; 
+  --swiper-navigation-size: 24px; 
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+  background: rgba(0,0,0,0.3);
+  padding: 30px;
+  border-radius: 50%;
+}
